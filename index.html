@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+        <title>GEBETA</title>
+    </head>
+
+    <body>
+        
+        <img src = 'bg.png' alt = "bg" class = "background">
+        <div class="board">
+            
+            <img src = "board2.png" alt = "board" class = "board">
+            <div class="holes">
+                <img src = "hole.png" alt = "hole" class = "hole1">
+                <img src = "hole.png" alt = "hole" class = "hole2">
+                <img src = "hole.png" alt = "hole" class = "hole3">
+                <img src = "hole.png" alt = "hole" class = "hole4">
+                <img src = "hole.png" alt = "hole" class = "hole5">
+                <img src = "hole.png" alt = "hole" class = "hole6">
+                <img src = "hole.png" alt = "hole" class = "hole7">
+                <img src = "hole.png" alt = "hole" class = "hole8">
+                <img src = "hole.png" alt = "hole" class = "hole9">
+                <img src = "hole.png" alt = "hole" class = "hole10">
+                <img src = "hole.png" alt = "hole" class = "hole11">
+                <img src = "hole.png" alt = "hole" class = "hole12">
+            </div>
+            
+            <div class="pebbles">
+                <img src = "pebbles_4.png" alt = "pebble" class = "hole_1_pebble">
+                <img src = "pebbles_3.png" alt = "pebble" class = "hole_2_pebble">
+                <img src = "pebbles_5.png" alt = "pebble" class = "hole_3_pebble">
+                <img src = "pebbles_3.png" alt = "pebble" class = "hole_4_pebble">
+                <img src = "pebbles_5.png" alt = "pebble" class = "hole_5_pebble">
+                <img src = "pebbles_3.png" alt = "pebble" class = "hole_6_pebble">
+                <img src = "pebbles_4.png" alt = "pebble" class = "hole_7_pebble">
+                <img src = "pebbles_5.png" alt = "pebble" class = "hole_8_pebble">
+                <img src = "pebbles_3.png" alt = "pebble" class = "hole_9_pebble">
+                <img src = "pebbles_5.png" alt = "pebble" class = "hole_10_pebble">
+                <img src = "pebbles_3.png" alt = "pebble" class = "hole_11_pebble">
+                <img src = "pebbles_5.png" alt = "pebble" class = "hole_12_pebble">
+            </div>
+            
+            <div class = "hand">
+                <img src = "hands.png" alt = "hand" class = "hands">
+                <img src = "pebbles_0.png" alt = "pebble" class = "hand_pebbles">
+                <img src = "owned_pebbles.png" alt = "ownedpebbles" class = "p1_side_hole">
+                <img src = "owned_pebbles.png" alt = "ownedpebbles" class = "p2_side_hole">
+                <img src = "pebbles_0.png" alt = "ownedpebbles" class = "side_hole_pebbles_0">
+                <img src = "pebbles_0.png" alt = "ownedpebbles" class = "side_hole_pebbles_1">
+                
+            </div>
+        </div>
+            <div class="player-0-panel">
+                <div class="player-name" id="name-0">Player 1</div>
+                
+            </div>
+            
+            <div class="player-1-panel active">
+                <div class="player-name" id="name-1">Player 2</div>
+            </div>
+        
+        
+        <div class = "winner_0">
+            <img src = "winner_p1.png" alt = "win1" class = "winner0">
+        </div>
+        
+        <div class = "winner_1">
+            <img src = "winner_p2.png" alt = "win2" class = "winner1">
+        </div> 
+        
+        <div class = "winner_2">
+            <img src = "draw.png" alt = "win0" class = "winner2">
+        </div>
+        
+        <div class = "reloadPage">
+            <button type= "submit" onClick = "window.location.reload()" class= "reload">New Game</button>
+        </div> 
+        
+        <div class = "arrow">
+            <img src = "arrow.png" alt = "arrow" class="Arrow">
+        </div>
+        
+        <div class = "rules">
+            <p>
+                <h1>HOW TO PLAY</h1>
+            </p>
+            <p1>
+                The final goal of gebeta is to acquire more pebbles than the other player by the end of the game. There are two ways of obtaining pebbles. A player can earn pebbles through ownership of holes or ownership of the pebbles themselves. This will be discussed below along with the rules of the game.
+            </p1>
+            </br></br>
+            <p2>
+                The first player distributes the pebbles by picking one pebble from the first two holes; then, continue to add one pebble in each hole and taking another from the next hole in a counter-clockwise manner. After making a complete circle, the hole the player finally lands on is considered their's. However, this process has already been taken care of by the beginning of this game, so neither player has to worry about it.
+            </p2>
+            </br></br>
+            <p3>
+                The second player grabs every pebble in any of the holes on his/her side and continues to drop one pebble in every hole in a counter-clockwise manner until he/she finishes the pebbles in his/her hand. If no pebbles remain in hand, the player is allowed to grab all the pebbles in the hole he/she last dropped a pebble in and continue his/her distribution. However, if the player drops his/her last pebble in an empty hole, the other player gets to play.
+            </p3>
+            </br></br>
+            <p4>    
+                If a player remains with one pebble in hand and has to drop it in a hole with three pebbles while distributing, he/she becomes the owner of that hole and the pebbles inside it as long as the hole is not on his/her side.
+            </p4>
+            </br></br>
+            <p5>
+                If a player with one pebble in hand drops his/her last pebble in the other player's hole, he takes the last pebble in his/her hand along with one other pebble from the other player's hole off the board. Those two pebbles will then be considered his and will not return to the game.
+            </p5>
+            </br></br>
+            <p6>
+                The end of the game is marked if either of the players run out of pebbles in any of the holes on his/her side. Scores are determined by the number of pebbles each player was able to put aside from the board and the number of pebbles in his/her holes. The player with the most pebbles at the end of the game is crowned as the winner of the game.
+            </p6>
+        </div>
+        <div class = "credits">
+            Yeabsira Lemma, Gebeta. July, 2019.
+        </div>
+        <div class = "replay">
+            <img src = "replay.png" alt = "replay" class = "replay_btn">
+        </div>
+
+        <script src="Gebeta.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,458 @@
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+    background: #b77f5d;
+}
+
+.background{
+    top: -5px;
+    left: -5px;
+    position: absolute;
+    width: 1500px;
+    height: 1500px;
+}
+
+.board {
+    position: absolute;
+    left: 635px;
+    top: 0px;
+    transform: translateX(-50%);
+    height: 630px;
+    width: 1250px;
+}
+.hole1 {
+    position: absolute;
+    left: 150px;
+    top: 45px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole2 {
+    position: absolute;
+    left: 340px;
+    top: 45px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole3 {
+    position: absolute;
+    left: 530px;
+    top: 45px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole4 {
+    position: absolute;
+    left: 710px;
+    top: 45px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole5 {
+    position: absolute;
+    left: 900px;
+    top: 45px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole6 {
+    position: absolute;
+    left: 1080px;
+    top: 45px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole7 {
+    position: absolute;
+    left: 150px;
+    top: 245px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole8 {
+    position: absolute;
+    left: 340px;
+    top: 245px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole9 {
+    position: absolute;
+    left: 530px;
+    top: 245px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole10 {
+    position: absolute;
+    left: 710px;
+    top: 245px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+.hole11 {
+    position: absolute;
+    left: 900px;
+    top: 245px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;
+}
+.hole12 {
+    position: absolute;
+    left: 1080px;
+    top: 245px;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 150px;   
+}
+
+.hole_1_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 90px;
+    left: 150px;
+    height: 50px;
+    width: 100px;
+}
+.hole_2_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 90px;
+    left: 340px;
+    height: 50px;
+    width: 100px;
+}
+.hole_3_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 90px;
+    left: 530px;
+    height: 50px;
+    width: 100px;
+}
+.hole_4_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 90px;
+    left: 710px;
+    height: 50px;
+    width: 100px;
+}
+.hole_5_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 90px;
+    left: 900px;
+    height: 50px;
+    width: 100px;
+}
+.hole_6_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 90px;
+    left: 1080px;
+    height: 50px;
+    width: 100px;
+}
+.hole_7_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 290px;
+    left: 150px;
+    height: 50px;
+    width: 100px;
+}
+.hole_8_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 290px;
+    left: 340px;
+    height: 50px;
+    width: 100px;
+}
+.hole_9_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 290px;
+    left: 530px;
+    height: 50px;
+    width: 100px;
+}
+.hole_10_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 290px;
+    left: 710px;
+    height: 50px;
+    width: 100px;
+}
+.hole_11_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 290px;
+    left: 900px;
+    height: 50px;
+    width: 100px;
+}
+.hole_12_pebble {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 290px;
+    left: 1080px;
+    height: 50px;
+    width: 100px;
+}
+
+
+.hole_1_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+}
+.hole_2_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+
+}
+.hole_3_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+
+}
+.hole_4_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_5_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_6_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_7_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_8_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_9_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_10_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_11_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+.hole_12_pebble:hover{width: 120px;
+                    height: 60px;
+                    cursor: grab;
+    
+}
+
+.player-0-panel,
+.player-1-panel {
+    
+    width: 30%;
+    float: left;
+    height: 100px;
+    padding: 100px;
+}
+.player-name {
+    color:black;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.player-score {
+    color: black;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 100px;
+    margin-left: 140px;
+}
+
+.active { background-color: firebrick; }
+.active .player-name { font-weight: 300; }
+
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top: -7px;
+    right: 10px;
+    
+}
+
+.hands {
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    height: 180px;
+    width: 230px;
+    transform: translateX(-50%);
+}
+.hand_pebbles {
+    position: absolute;
+    top: 490px;
+    left: 550px;
+    height: 60px;
+    width: 120px;
+    transform: translateX(-50%);    
+}
+.p1_side_hole {
+    position: absolute;
+    top: 390px;
+    left: 150px;
+    height: 150px;
+    width: 250px;
+}
+.p2_side_hole {
+    position: absolute;
+    top: 390px;
+    left: 730px;
+    height: 150px;
+    width: 250px;
+}
+.side_hole_pebbles_0 {
+    position: absolute;
+    top: 440px;
+    left: 220px;
+    height: 60px;
+    width: 120px;
+}
+.side_hole_pebbles_1 {
+    position: absolute;
+    top: 440px;
+    left: 800px;
+    height: 60px;
+    width: 120px;
+}
+.winner_0 {
+    position:absolute;
+    top: -10px;
+    left: 0px;
+    height: 600px;
+    width: 1300px;
+    display: none;
+}
+.winner_1 {
+    position:absolute;
+    top: -10px;
+    left: 0px;
+    height: 600px;
+    width: 1300px;
+    display: none;
+}
+.winner_2 {
+    position:absolute;
+    top: -10px;
+    left: 0px;
+    height: 600px;
+    width: 1300px;
+    display: none;
+}
+.reload {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background: tan;
+    border: double;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.reload:hover { 
+    width: 210px;
+    font-weight: 600;
+    color: grey;
+    border-color: blanchedalmond;
+    cursor: pointer;
+}
+.rules {
+    position: absolute;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 650px;
+    font-family:cursive;
+    font-size: 20px;
+}
+.replay_btn {
+    position: absolute;
+    left: 40%;
+    top: 220px;
+    width: 200px;
+    height: 100px;
+    display: none;
+}
+.replay_btn:hover {
+    width: 220px;
+    height: 110px;
+}
+.Arrow {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 380px;
+    left: 1000px;
+    display: block;
+}
+.Arrow:hover {
+    top: 410px;
+    height: 180px;
+}
+.credits {
+    position: absolute;
+    top: 1470px;
+    left: 800px;
+    height: 1500px;
+    color: black;
+    font-size: 20px;
+}

@@ -3,27 +3,28 @@ body {
     background-position: center;
     font-family: Lato;
     font-weight: 300;
-    position: relative;
-    height: 100vh;
+    position: absolute;
+    height: 0px;
     color: #555;
     background: #b77f5d;
+    width: 1500px;
 }
 
 .background{
-    top: -5px;
-    left: -5px;
+    top: auto;
+    left: auto;
     position: absolute;
-    width: 1500px;
+    width: 100%;
     height: 1500px;
 }
 
 .board {
     position: absolute;
-    left: 635px;
+    left: 650px;
     top: 0px;
     transform: translateX(-50%);
     height: 630px;
-    width: 1250px;
+    width: 90%;
 }
 .hole1 {
     position: absolute;
@@ -286,7 +287,7 @@ body {
     width: 30%;
     float: left;
     height: 100px;
-    padding: 100px;
+    padding: 50px;
 }
 .player-name {
     color:black;
@@ -295,7 +296,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 100;
-    margin-top: 300px;
+    margin-top: 330px;
     margin-bottom: 10px;
     position: relative;
 }
@@ -311,7 +312,7 @@ body {
 }
 
 .active { background-color: firebrick; }
-.active .player-name { font-weight: 300; }
+.active .player-name { font-weight: 600; }
 
 .active .player-name::after {
     content: "\2022";
@@ -394,7 +395,7 @@ body {
 .reload {
     position: absolute;
     width: 200px;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
     color: black;
     background: tan;
@@ -405,7 +406,6 @@ body {
     cursor: pointer;
     font-weight: 300;
     transition: background-color 0.3s, color 0.3s;
-
 }
 
 .reload:hover { 
@@ -423,6 +423,7 @@ body {
     top: 650px;
     font-family:cursive;
     font-size: 20px;
+    width: 80%;
 }
 .replay_btn {
     position: absolute;
@@ -455,4 +456,38 @@ body {
     height: 1500px;
     color: black;
     font-size: 20px;
+}
+@media (min-width: 300px) and (max-width:500px){
+    .Arrow{
+        display: none;
+    }
+    .reload {
+        left:40%;
+        width:80%;
+        height:40px;
+    }
+    .rules{
+        display: none;
+    }
+    .credits{
+        top:550px;
+        left: 820px;
+    }
+    body{
+        height: 500px;
+    }
+    .background{
+        height: 700px;
+    }
+    .ruleBTN{
+        position:absolute;
+        width:180px;
+        left:970px;
+        top:450px;
+        background-color:chocolate;
+        font-family: cursive;
+        font-size: 20px;
+        height: 70px;
+        text-align: center;
+    }
 }

@@ -458,20 +458,373 @@ body {
     font-size: 20px;
 }
 @media (min-width: 300px) and (max-width:500px){
+    body {
+        background-size: cover;
+        background-position: center;
+        font-family: Lato;
+        font-weight: 300;
+        position: absolute;
+        color: #555;
+        background-color: #b77f5d;
+        width: 1500px;
+        height: 5000px;
+    }
+    .board {
+        position: absolute;
+        left: 750px;
+        top: 0px;
+        transform: translateX(-50%);
+        height: 2070px;
+        width: 100%;
+    }
+    .hole1 {
+        position: absolute;
+        left: 300px;
+        top: 150px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;   
+    }
+    .hole2 {
+        position: absolute;
+        left: 300px;
+        top: 350px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;   
+    }
+    .hole3 {
+        position: absolute;
+        left: 300px;
+        top: 600px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;   
+    }
+    .hole4 {
+        position: absolute;
+        left: 300px;
+        top: 850px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;   
+    }
+    .hole5 {
+        position: absolute;
+        left: 300px;
+        top: 1100px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;   
+    }
+    .hole6 {
+        position: absolute;
+        left: 300px;
+        top: 1350px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;   
+    }
+    .hole7 {
+        position: absolute;
+        left: 1100px;
+        top: 150px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;
+    }
+    .hole8 {
+        position: absolute;
+        left: 1100px;
+        top: 350px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px; 
+    }
+    .hole9 {
+        position: absolute;
+        left: 1100px;
+        top: 600px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;
+    }
+    .hole10 {
+        position: absolute;
+        left: 1100px;
+        top: 850px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px; 
+    }
+    .hole11 {
+        position: absolute;
+        left: 1100px;
+        top: 1100px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;
+    }
+    .hole12 {
+        position: absolute;
+        left: 1100px;
+        top: 1350px;
+        transform: translateX(-50%);
+        height: 250px;
+        width: 250px;   
+    }
+
+    .hole_1_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 210px;
+        left: 300px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_2_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 410px;
+        left: 300px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_3_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 680px;
+        left: 300px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_4_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 910px;
+        left: 300px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_5_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 1160px;
+        left: 300px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_6_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 1410px;
+        left: 300px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_7_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 210px;
+        left: 1100px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_8_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 410px;
+        left: 1100px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_9_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 660px;
+        left: 1100px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_10_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 910px;
+        left: 1100px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_11_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 1160px;
+        left: 1100px;
+        height: 100px;
+        width: 200px;
+    }
+    .hole_12_pebble {
+        position: absolute;
+        transform: translateX(-50%);
+        top: 1410px;
+        left: 1100px;
+        height: 100px;
+        width: 200px;
+    }
+
+    .player-0-panel,
+    .player-1-panel {
+
+        width: 43%;
+        float: left;
+        height: 100px;
+        padding: 50px;
+    }
+    .player-name {
+        color:black;
+        font-size: 90px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 100;
+        margin-top: 2020px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .player-score {
+        color: black;
+        position: absolute;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 100;
+        margin-bottom: 100px;
+        margin-left: 140px;
+    }
+
+    .active { background-color: firebrick; }
+    .active .player-name { font-weight: 600; }
+
+    .active .player-name::after {
+        content: "\2022";
+        font-size: 47px;
+        position: absolute;
+        color: #EB4D4D;
+        top: -7px;
+        right: 10px;
+
+    }
+
+    .hands {
+        position: absolute;
+        top: 700px;
+        left: 680px;
+        height: 360px;
+        width: 460px;
+        transform: translateX(-50%);
+    }
+    .hand_pebbles {
+        position: absolute;
+        top: 810px;
+        left: 680px;
+        height: 150px;
+        width: 300px;
+        transform: translateX(-50%);    
+    }
+    .p1_side_hole {
+        position: absolute;
+        top: 2200px;
+        left: 50px;
+        height: 400px;
+        width: 600px;
+    }
+    .p2_side_hole {
+        position: absolute;
+        top: 2200px;
+        left: 850px;
+        height: 400px;
+        width: 600px;
+    }
+    .side_hole_pebbles_0 {
+        position: absolute;
+        top: 2300px;
+        left: 160px;
+        height: 150px;
+        width: 300px;
+    }
+    .side_hole_pebbles_1 {
+        position: absolute;
+        top: 2300px;
+        left: 960px;
+        height: 150px;
+        width: 300px;
+    }
+    .winner_0 {
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        height: 1000px;
+        width: 1500px;
+        display: none;
+    }
+    .winner_1 {
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        height: 1000px;
+        width: 1500px;
+        display: none;
+    }
+    .winner_2 {
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        height: 1000px;
+        width: 1500px;
+        display: none;
+    }
+    .reload {
+        position: absolute;
+        width: 200px;
+        left: 10%;
+        transform: translateX(-50%);
+        color: black;
+        background: tan;
+        border: double;
+        font-family: Lato;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 300;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
     .Arrow{
         display: none;
     }
     .reload {
-        left:40%;
-        width:80%;
-        height:40px;
+        left:45%;
+        width:35%;
+        top: 440px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 50px;
+    }
+    .replay_btn {
+        position: absolute;
+        left: 25%;
+        top: 900px;
+        width: 600px;
+        height: 300px;
+        display: none;
     }
     .rules{
         display: none;
     }
     .credits{
-        top:550px;
-        left: 820px;
+        font-size: 40px;
+        top:2700px;
+        left: 700px;
+        font-family: cursive;
     }
     body{
         height: 500px;
@@ -481,13 +834,13 @@ body {
     }
     .ruleBTN{
         position:absolute;
-        width:180px;
-        left:970px;
-        top:450px;
-        background-color:chocolate;
+        width:500px;
+        left:440px;
+        top:1200px;
         font-family: cursive;
-        font-size: 20px;
-        height: 70px;
+        font-size: 50px;
+        height: 100px;
         text-align: center;
+        background-color: blanchedalmond;
     }
 }
